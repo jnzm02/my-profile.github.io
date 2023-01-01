@@ -9,12 +9,23 @@ html {
 }
 
 body {
-    margin: 0 auto;
-    width: 1046px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 1.6;
-    background: #333333;
+    background: #F2F2F2;
+}
+
+.main-part {
+    margin: 0 auto;
+    width: 1046px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-100 {
+    margin-top: 100px;
 }
 
 .post {
@@ -25,7 +36,7 @@ body {
 .info {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 22px;
+    grid-gap: 30px;
     padding: 22px;
 }
 
@@ -97,4 +108,14 @@ body {
     line-height: 22px;
     color: #828282;
     padding-top: 37px;
+}
+
+.profile {
+    width: 395px;
+    padding: 22px;
+}
+
+.profile .my-photo {
+    margin: 0 auto;
+    width: 351px;
 }
