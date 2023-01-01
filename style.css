@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+    width: 1046px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background: #333333;
+}
+
+.post {
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 22px;
+    padding: 22px;
+}
+
+.info .my-photo {
+    width: 300px;
+}
+
+.my-photo img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.my-info .top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left .name {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.left .job {
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #828282;
+    font-size: 18px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.right .box {
+    width: 300px;
+    margin-right: 0;
+    margin-left: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.box .email {
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid-gap: 5px;
+}
+
+.box .phone {
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid-gap: 5px;
+}
+
+.bottom {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    padding-top: 37px;
+}
