@@ -79,13 +79,16 @@ body {
 
 .right .box {
     width: 300px;
-    margin-right: 0;
-    margin-left: auto;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     color: #4F4F4F;
+}
+
+.text-right {
+    margin-right: 0;
+    margin-left: auto;
 }
 
 .box .email {
@@ -118,4 +121,8 @@ body {
 .profile .my-photo {
     margin: 0 auto;
     width: 351px;
+}
+
+.pt-20 {
+    padding-top: 20px;
 }
