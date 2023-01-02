@@ -15,9 +15,19 @@ body {
     background: #F2F2F2;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
 .main-part {
     margin: 0 auto;
     width: 1046px;
+    padding-bottom: 245px;
 }
 
 .mt-70 {
@@ -125,4 +135,231 @@ body {
 
 .pt-20 {
     padding-top: 20px;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 22px;
+    grid-gap: 40px;
+}
+
+.blog .my-photo {
+    height: 267px;
+    width: 384px;
+}
+
+.blog .my-photo img {
+    height: 100%;
+}
+
+.blog-info .tech {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+    word-spacing: 9px;
+}
+
+.blog-info .title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 20px 0;
+    color: #333333;
+}
+
+.blog-info .body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 0;
+    color: #828282;
+}
+
+.blog-info .buttons {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 135px 135px;
+    grid-gap: 11px;
+}
+
+.blog-info .button {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.button .demo {
+    width: 135px;
+    color: white;
+    background: #2F80ED;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 10px 40px;
+}
+
+.button .code {
+    width: 135px;
+    color: #2F80ED;
+    padding: 10px 40px;
+    border: 1px solid #2F80ED;
+    border-radius: 12px;    
+}
+
+.blog-box {
+    padding: 22px;
+    width: 395px;
+}
+
+.blog-box .my-photo {
+    width: 351px;
+    height: 251px;
+}
+.blog-box .my-photo img {
+    height: 100%;
+}
+
+.blog-box .tech {
+    padding-top: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+    word-spacing: 9px;
+}
+
+.blog-box .title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 20px 0;
+    color: #333333;
+}
+
+.blog-box .body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 0;
+    color: #828282;
+}
+
+.blog-box .buttons {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 135px 135px;
+    grid-gap: 11px;
+}
+
+.blog-box .button {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.bar-box {
+    padding: 22px;
+}
+
+.bar-box .title {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    padding-bottom: 16px;
+}
+
+.bar-box .bars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 53px;
+    grid-row-gap: 16px;
+}
+
+.bar-box .part {
+    display: grid;
+    grid-template-columns: 104px 348px;
+}
+
+.part .name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.bar-box .bars .bar {
+    height: 9px;
+    background-color: #C4C4C4;
+    border-radius: 12px;
+}
+
+.blue-bar {
+    background-color: #2F80ED;
+    height: 9px;
+    border-radius: 12px;
+}
+
+.bar-post {
+    padding: 22px;
+    width: 389px;
+}
+
+.bar-post .title {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    padding-bottom: 16px;
+}
+
+.bar-post .bars {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 53px;
+    grid-row-gap: 16px;
+}
+
+.bar-post .part {
+    display: grid;
+    grid-column-gap: 19px;
+    grid-template-columns: 104px 222px;
+}
+
+.bar-post .bars .bar {
+    height: 9px;
+    background-color: #C4C4C4;
+    border-radius: 12px;
 }
