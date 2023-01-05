@@ -39,6 +39,7 @@ a:hover {
 }
 
 .post {
+    overflow: hidden;
     background: #FFFFFF;
     border-radius: 12px;
 }
@@ -363,3 +364,377 @@ a:hover {
     background-color: #C4C4C4;
     border-radius: 12px;
 }
+
+.article {
+    padding: 22px;
+}
+
+.article .body {
+    display: grid;
+    grid-template-columns: 548px 548px;
+}
+
+.article .my-photo {
+    width: 548px;
+    height: 380.2px;
+}
+
+.article img {
+    height: 100%;
+}
+
+.article .abstract {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E0E0E0;
+}
+
+.article .title {
+    max-width: 178px;
+    padding-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.article .description {
+    padding-top: 26px;
+    max-width: 465px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.article .bottom {
+    padding-top: 61px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F80ED;
+}
+
+.article-box {
+    padding: 22px;
+    max-width: 536px;
+}
+
+
+.article-box .my-photo {
+    padding-top: 25px;
+    width: 483px;
+    height: 337px;
+}
+
+.article-box img {
+    height: 100%;
+}
+
+.article-box .abstract {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E0E0E0;
+}
+
+.article-box .title {
+    max-width: 178px;
+    padding-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.article-box .description {
+    padding-top: 50px;
+    max-width: 465px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.article-box .bottom {
+    padding-top: 61px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F80ED;
+}
+
+.article-box .left {
+    display: grid;
+    grid-template-columns: 237px 237px;
+}
+
+.experience {
+    padding: 22px;
+}
+
+.experience .title {
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+
+.experience .companies {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.experience .company {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 1fr;
+}
+
+.area-84 {
+    width: 100px;
+    height: 84px;
+}
+
+.area-84 img {
+    width: 100%;
+    height: 100%;
+}
+
+.experience .date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.experience .role {
+    padding-top: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.experience .description {
+    max-width: 168px;
+    padding-top: 33px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.experience-post {
+    padding: 22px;
+    width: 417px;
+}
+
+
+.experience-post .title {
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+
+.experience-post .companies {
+    padding-top: 44px;
+    display: grid;
+    grid-gap: 36px;
+}
+
+.experience-post .company {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 10px;
+}
+
+.area-84 {
+    width: 84px;
+    height: 84px;
+}
+
+.area-100 {
+    width: 100px;
+    height: 84px;
+}
+
+.area-84 img {
+    width: 100%;
+    height: 100%;
+}
+
+.area-100 img {
+    width: 100%;
+    height: 100%;
+}
+
+.experience-post .date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.experience-post .role {
+    padding-top: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.experience-post .description {
+    max-width: 273px;
+    padding-top: 33px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.hobbies {
+    padding: 22px;
+}
+
+.hobbies .title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+
+.hobbies .my-photo {
+    height: 139px;
+    width: 295px;
+}
+
+.hobbies .my-photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.hobbies .activities {
+    padding-top: 26px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 59px;
+}
+
+.hobbies .name {
+    padding-top: 26px;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.hobbies .description {
+    max-width: 253px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+
+.hobbies-post {
+    padding: 22px;
+    width: 427px;
+}
+
+.hobbies-post .title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+
+.hobbies-post .my-photo {
+    height: 139px;
+    width: 383px;
+}
+
+.hobbies-post .my-photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.hobbies-post .activities {
+    padding-top: 26px;
+    display: grid;
+    grid-gap: 59px;
+}
+
+.hobbies-post .name {
+    padding-top: 26px;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.hobbies-post .description {
+    max-width: 253px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+
