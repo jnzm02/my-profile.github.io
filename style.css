@@ -220,12 +220,12 @@ a:hover {
 
 .blog-box {
     padding: 22px;
-    width: 395px;
+    width: 100%;
 }
 
 .blog-box .my-photo {
-    width: 351px;
-    height: 251px;
+    width: 292px;
+    height: 217px;
 }
 .blog-box .my-photo img {
     height: 100%;
@@ -764,10 +764,11 @@ a:hover {
 }
 
 .projects .types {
-    display: grid;
+    padding-top: 24px;
 }
 
 .projects .type {
+    margin-right: 16px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -775,8 +776,34 @@ a:hover {
     line-height: 17px;
     /* identical to box height */
 
+    padding: 8px 22px;
+    border: 1px solid #4F4F4F;
+    border-radius: 12px;
     text-align: center;
 
     color: #4F4F4F;
 }
 
+.projects .type-blue { 
+    margin-right: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    padding: 8px 22px;
+    border: 1px solid #2F80ED;
+    border-radius: 12px;
+    text-align: center;
+    background: #2F80ED;
+    color: white;
+}
+
+
+.ps {
+    display: grid;
+    grid-column-gap: 30.51px;
+    grid-template-columns: 328.49px 328.49px 328.49px;
+}
