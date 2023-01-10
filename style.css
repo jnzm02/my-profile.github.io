@@ -807,3 +807,31 @@ a:hover {
     grid-column-gap: 30.51px;
     grid-template-columns: 328.49px 328.49px 328.49px;
 }
+
+
+.xbox {
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    position: relative;
+}
+
+.xbox::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    top: 100%;
+    background-color: white;
+}
+
+.xbox::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    top: 100%;
+    left: 50%;
+    background-color: black;
+}
