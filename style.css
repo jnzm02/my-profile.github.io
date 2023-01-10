@@ -331,7 +331,7 @@ a:hover {
 
 .bar-post {
     padding: 22px;
-    width: 389px;
+    width: 100%;
 }
 
 .bar-post .title {
@@ -426,7 +426,7 @@ a:hover {
 
 .article-box {
     padding: 22px;
-    max-width: 536px;
+    max-width: 100%;
 }
 
 
@@ -487,6 +487,7 @@ a:hover {
 }
 
 .experience {
+    width: 596px;
     padding: 22px;
 }
 
@@ -554,7 +555,7 @@ a:hover {
 
 .experience-post {
     padding: 22px;
-    width: 417px;
+    width: 592px;
 }
 
 
@@ -686,7 +687,7 @@ a:hover {
 
 .hobbies-post {
     padding: 22px;
-    width: 427px;
+    width: 100%;
 }
 
 .hobbies-post .title {
@@ -737,4 +738,45 @@ a:hover {
     color: #828282;
 }
 
+
+.divide {
+    width: 100%;    
+    display: grid;
+    grid-template-columns: 415px 592px;
+    grid-column-gap: 34px;
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.projects {
+    max-width: 1050px;
+    padding: 22px;
+}
+
+.projects .title {font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+
+.projects .types {
+    display: grid;
+}
+
+.projects .type {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #4F4F4F;
+}
 
